@@ -3,7 +3,7 @@
 ## Python analysis pipeline
 
 <details>
-  <summary>Phase 1: Setup & Exploration</summary>
+  <summary>Phase 1: Setup & Exploration ✅</summary>
 
   - Load data
   - Inspect structure
@@ -12,7 +12,7 @@
 </details>
 
 <details>
-  <summary>Phase 2: Data Cleaning</summary>
+  <summary>Phase 2: Data Cleaning ✅</summary>
 
   - Handle missing values
   - Validate ranges
@@ -21,7 +21,7 @@
 </details>
 
 <details>
-  <summary>Phase 3: Feature Engineering</summary>
+  <summary>Phase 3: Feature Engineering ✅</summary>
 
   - Create derived features
   - Encode categorical variables
@@ -30,7 +30,7 @@
 </details>
 
 <details>
-  <summary>Phase 4: Exploratory Data Analysis</summary>
+  <summary>Phase 4: Exploratory Data Analysis ✅</summary>
 
   - Visualize distributions
   - Create correlation heatmap
@@ -58,10 +58,10 @@
 
 #### Phase 1-3 (LOAD & INSPECT DATA, DATA CLEANING & VALIDATION, FEATURE ENGINEERING
   - **Clean data** - No missing values means less preprocessing work
-  - ✅ **Good data quality** - All ranges make sense
-  - ✅ **Solid dataset** - 300 entries across 50 users is great for analysis
-  - ✅ Understood the user distribution (50 users, 2-11 days each)
-  - ✅ **Complete feature engineering** - Created ALL the features (Sleep_Deficit, Day_of_Week, Is_Weekend, Is_Active, High_Screen_Time, Sleep_Quality_Score, High_Mood, High_Productivity, Previous_Day_Mood,Previous_Day_Productivity)
+  - **Good data quality** - All ranges make sense
+  - **Solid dataset** - 300 entries across 50 users is great for analysis
+  - Understood the user distribution (50 users, 2-11 days each)
+  - **Complete feature engineering** - Created ALL the features (Sleep_Deficit, Day_of_Week, Is_Weekend, Is_Active, High_Screen_Time, Sleep_Quality_Score, High_Mood, High_Productivity, Previous_Day_Mood,Previous_Day_Productivity)
   - **Interesting observation:** Screen_Time goes up to 11 hours (someone's having a binge day! 😅)
   - **Good distribution:** Most people have "Good" sleep quality (120/300 entries)
   - **50 lag values missing** - Expected and correct (first day per user)
