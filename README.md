@@ -66,7 +66,7 @@
   - **Good distribution:** Most people have "Good" sleep quality (120/300 entries)
   - **50 lag values missing** - Expected and correct (first day per user)
 
-####Phase 4 (Exploratory Data Analysis)
+#### Phase 4 (Exploratory Data Analysis)
 
 **Histograms** - "What's the shape of my data?"
 
